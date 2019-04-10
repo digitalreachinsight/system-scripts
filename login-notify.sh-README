@@ -1,0 +1,2 @@
+# add the following line to  /etc/pam.d/sshd (replace from and to with valid addresses)
+session optional pam_exec.so seteuid /etc/system-scripts/login-notify.sh from@example.com to@example.com
